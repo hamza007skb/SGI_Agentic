@@ -9,3 +9,5 @@ class AgentState(TypedDict):
     contact_number: str | None
     address: str | None
     error: str | None
+    ntn: str | None
+    group: str | None
